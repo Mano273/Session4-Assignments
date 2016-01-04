@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Assignment1</title>
+	<style type="text/css">
+	
+
+p.bubble
+{
+position: relative;height: 150px; width: 250px;
+background-color:  #AEC5C3;
+border:8px solid  #AEC5C3;
+text-align: center;
+border-radius: 30px;
+line-height: 50px;
+left:50px;
+}
+p.bubble:before
+{
+	content:'';
+	width:0px;
+	height: 0px;
+	border: 20px solid;
+	border-color: transparent #AEC5C3 transparent transparent ;
+	position: absolute;
+	left: -45px;
+	top: 14px;
+}
+
+
+</style>
+
+</head>
+<body>
+	<p class="bubble"></p>
+</body>
+
+</html>
